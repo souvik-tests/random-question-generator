@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Questions Generator</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  
+  <div id="footerArea">Developed by © Souvik Paul</div>
+  
+  <div id="webName" class="flex items-center bg-gray-200 h-24">
+    <div class="flex-1 text-black-700 text-center bg-white-400 px-4 py-2 m-2">Random Questions Generator</div>
+  </div>
+  
+  <div id="qstnTxt" class="flex items-center bg-gray-200 h-24">
+    <div id="mainQstn" style="border-radius: 5px; background-color: black; color: white;" class="flex-1 text-black-700 text-center bg-yellow-400 px-4 py-2 m-2">What is your questions?</div>
+  </div>
+  
+  <div id="hintTxt" class="flex items-center bg-gray-200 h-24">
+    <div class="flex-1 text-black-700 text-center bg-white-400 px-4 py-2 m-2">Click on this button below to <br> get your question.</div>
+  </div>
+  
+  <div id="loadingAni">
+    <div id="anim">
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_Z4BhGL.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;"  loop  autoplay></lottie-player>
+      </div>
+  </div>
+  
+  <div id="callBtn">
+    <button style="margin: 0 auto;" class="bg-blue-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full" onclick="triggerCall()">
+  Get your question</button>
+  <div>
+  
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>

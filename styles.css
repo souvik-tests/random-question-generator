@@ -1,0 +1,46 @@
+#webName {
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#qstnTxt {
+  background-color: white;
+  font-size: 24px;
+  font-weight: 600;
+  height: auto;
+  display: none;
+}
+
+#hintTxt {
+  background-color: white;
+  font-size: 14px;
+  height: auto;
+}
+
+#loadingAni {
+  height: auto;
+  display: none;
+  justify-content: center;
+}
+
+#anim {
+  margin: 0 auto;
+}
+
+#callBtn {
+  display: flex;
+  justify-content: center;
+}
+
+#footerArea {
+  position: fixed;
+  height: auto;
+  padding: 5px;
+  width: 100%;
+  color: grey;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
