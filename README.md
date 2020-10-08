@@ -5,7 +5,6 @@ It is a tool to generate random questions from the question list. Its is mostly 
 
 Download the project for contribution or personal use:
 ```
-
 git clone https://souvik-tests.github.io/random-question-generator/
 ```
 
